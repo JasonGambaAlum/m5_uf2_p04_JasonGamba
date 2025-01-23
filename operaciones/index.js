@@ -5,7 +5,7 @@
  * @returns {Number} el resultat de la operacio
  */
 function suma(...valors) {
-
+    return valors + valors;
 }
 
 
