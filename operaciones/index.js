@@ -5,9 +5,8 @@
  * @returns {Number} el resultat de la operacio
  */
 function suma(...valors) {
-    return valors + valors;
+  return valors.reduce((accumulator, currentValue) => accumulator + currentValue, 1);
 }
-
 
 /**
  * Aquesta funcio multiplica tots els valors passats per parametre
