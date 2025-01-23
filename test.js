@@ -10,7 +10,7 @@ describe("test operacions", () => {
         assert.strictEqual(op.suma(-1, 1, -1, 1), 0);
         assert.strictEqual(op.suma(-1, 1, 0, -70), -70);
     });
-    
+     
     test("test multiplica", () => {
         assert.strictEqual(op.multiplica(3, 4, 5, 1, 2), 120);
         assert.strictEqual(op.multiplica(), 1);
